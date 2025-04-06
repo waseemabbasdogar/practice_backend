@@ -1,35 +1,23 @@
 {
   "name": "practice_backend",
   "version": "1.0.0",
-  "description": "A complete backend project",
-  "type": "module",
+  "description": "A compelete backend project for learning",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/waseemabbasdogar/practice_backend.git"
   },
   "keywords": [
-    "backend",
-    "javascript"
+    "javascript",
+    "backend"
   ],
   "author": "WASEEM ABBAS",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/waseemabbasdogar/practice_backend/issues"
   },
-  "homepage": "https://github.com/waseemabbasdogar/practice_backend#readme",
-  "devDependencies": {
-    "nodemon": "^3.1.9",
-    "prettier": "^3.5.3"
-  },
-  "dependencies": {
-    "cookie-parser": "^1.4.7",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^5.1.0",
-    "mongoose": "^8.13.2"
-  }
+  "homepage": "https://github.com/waseemabbasdogar/practice_backend#readme"
 }

@@ -1,1 +1,1 @@
-# A complete backend project of youtube type with some extra features added.
+# A complete backend project for learning MERN stack with youtube like app adding some additional features.
