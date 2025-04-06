@@ -2,9 +2,10 @@
   "name": "practice_backend",
   "version": "1.0.0",
   "description": "A complete backend project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/waseemabbasdogar/practice_backend/issues"
   },
-  "homepage": "https://github.com/waseemabbasdogar/practice_backend#readme"
+  "homepage": "https://github.com/waseemabbasdogar/practice_backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3"
+  }
 }
